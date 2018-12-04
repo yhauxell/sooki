@@ -1,0 +1,21 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Weather Forecast for the next days</mat-card-title>
+    <mat-card-subtitle *ngIf="weather && weather.name">{{weather.name}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div *ngIf="weather && weather.weather">
+      <img src="http://openweathermap.org/img/w/{{weather.weather[0].icon}}.png" alt="{{weather.weather[0].description}}">
+      <span>{{weather.weather[0].description}}</span>
+    </div>
+    <ul *ngIf="weather && weather.main">
+      <li > Temperature: {{weather.main.temp | weatherUnit:unit}}</li>
+      <li > Wind: {{weather.wind.speed}}</li>
+      <!--<li > Min: {{forecast.list[0].main.temp_min | weatherUnit:unit}}</li>
+      <li > Max: {{forecast.list[0].main.temp_max | weatherUnit:unit}}</li>-->
+    </ul>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary"> More</button>
+  </mat-card-actions>
+</mat-card>
