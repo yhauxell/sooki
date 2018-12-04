@@ -1,5 +1,8 @@
 # Sooki
 
+## You can check out the progress at: <a href="https://yhauxell.github.io/sooki/" target="_blank">https://yhauxell.github.io/sooki/</a>
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
 ## Development server
