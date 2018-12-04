@@ -1,6 +1,7 @@
 # Sooki
+![node](https://img.shields.io/node/v/v11.3.0.svg?style=for-the-badge)
 
-## You can check out the progress at: <a href="https://yhauxell.github.io/sooki/" target="_blank">https://yhauxell.github.io/sooki/</a>
+## You can check out the progress at: https://yhauxell.github.io/sooki/
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
