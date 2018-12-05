@@ -1,8 +1,10 @@
 # Sooki
-![node](https://img.shields.io/node/v/v11.3.0.svg?style=for-the-badge)
+
+<img alt="node:?" src="https://img.shields.io/badge/node-=>11.3.0-blue.svg?style=for-the-badge"/> <img alt="npm:?" src="https://img.shields.io/badge/npm-=>6.4.1-blue.svg?style=for-the-badge"/>
 
 ## You can check out the progress at: https://yhauxell.github.io/sooki/
 
+What if we have a sport field booking application where we can check in one place all the paintful details that could make you have a exhausted or missed match because of weather, what if we want to pick the best field for night matches, what if you want to know what else is happening around you by the time you are having the match, what if we want some snacks, power drinks, towers, a ball or a referee?. Thats the main reason behind this open source project. Create a all-star application that help sport adicts to book the perfect field with all of a good match deserve!!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
